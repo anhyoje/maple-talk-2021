@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+
+    <title>Welcome! Maple Talk</title>
+  </head>
+  <body>
+    <div class="login_body">
+      <div class="header">
+        <i class="fab fa-canadian-maple-leaf"></i>
+        <span>MapleTalk</span>
+        <div class="header_status">
+          <i class="far fa-clock"></i>
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+      <div class="login_logo">
+        <i class="fab fa-canadian-maple-leaf"></i>
+        <span>Maple Talk</span>
+      </div>
+      <form action="main.html" method="get">
+        <div class="login_enter">
+          <input type="text" placeholder="Write ID" />
+          <input
+            type="password"
+            placeholder="Write PW"
+            minlength="8"
+            maxlength="13"
+          />
+          <div class="login_btn">
+            <button type="submit">Login</button>
+            <a href="#">Find ID or PW</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
